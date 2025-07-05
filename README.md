@@ -209,3 +209,10 @@ Credentials:
  - sonar-token (use the token we created in sonarqube server)
  - maven-releases (nexus user id and password) - admin /12345
  - maven-snapshots (nexus user id and password) - admin /12345
+
+![7](images/7.png)
+
+![8](images/8.png)
+
+#### SonarQube Scanner setting in jenkins
+#### SonarQube Server setting in jenkins
