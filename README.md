@@ -192,7 +192,15 @@ sudo systemctl status nexus.service
 
 ![4](images/4.png)
 
+#### login and configure Nexus
 ![5](images/5.png)
+#### Get the maven-releases and maven-snapshots path
+![5A](images/5A.png)
+#### Generate token from Sonarqube server
+
+#### Create sonarqube webhook
+![5B](images/5B.png)
+
 
 #### Get the maven-releases and maven-snapshots path
 edit the porm.xml file in the github repositary 
