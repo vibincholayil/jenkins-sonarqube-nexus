@@ -30,6 +30,7 @@ In the modern DevOps landscape, Continuous Integration and Continuous Delivery (
  - You’re deploying across multiple environments (e.g., QA, UAT, Prod) and need consistent artifacts from a central repository (Nexus).
 
 ### Architecture Overview
+![ach01](images/ach01.png)
 
 ## Step-by-Step Implementation 
 
@@ -193,12 +194,16 @@ sudo systemctl status nexus.service
 ![4](images/4.png)
 
 #### login and configure Nexus
+login the sonatype nexus repository.  
+login: admin. 
+password: admin. 
+changed the password also
 ![5](images/5.png)
 #### Get the maven-releases and maven-snapshots path
 ![5A](images/5A.png)
 #### Generate token from Sonarqube server
 
-#### Create sonarqube webhook
+#### Create sonarqube token and webhook
 ![5B](images/5B.png)
 
 
@@ -230,4 +235,16 @@ Credentials:
 ![10](images/10.png)
 ![11](images/11.png)
 #### Create Jenkins pipeline
+pipeline syntax under pipeline configure
+![13](images/13.png)
+![14](images/14.png)
 
+### Conclusion
+This lab simulates a real-world, enterprise-grade CI/CD setup using open-source tools concepts. By integrating Jenkins with SonarQube and Nexus
+
+ - Developers get early feedback through static analysis
+ - Artifacts are versioned and traceable in Nexus
+ - Teams maintain version discipline and deployment readiness
+ - Code that fails quality gates never reaches production
+
+This use case not only enhances build quality but also streamlines developer workflows, minimizes release risks, and promotes DevOps best practices in version control, quality assurance, and artifact management.
