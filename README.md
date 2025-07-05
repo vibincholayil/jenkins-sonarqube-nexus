@@ -62,5 +62,4 @@ sudo apt-get install jenkins -y
 
 jenkins --version
 ```
-[1](images/01.png)
-
+![1](images/01.png)
