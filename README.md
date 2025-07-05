@@ -216,3 +216,10 @@ Credentials:
 
 #### SonarQube Scanner setting in jenkins
 #### SonarQube Server setting in jenkins
+![9](images/9.png)
+
+#### Configuration file management
+![10](images/10.png)
+![11](images/11.png)
+#### Create Jenkins pipeline
+
